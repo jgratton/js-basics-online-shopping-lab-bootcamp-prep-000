@@ -68,32 +68,3 @@ function placeOrder(cardNumber) {
     return `Your total cost is $${value}, which will be charged to the card ${cardNumber}.`;
   }
 }
-
-/* OPEN TEST AREA
-var testCart = [
-  {itemName: "vanilla", itemPrice: 12},
-  {itemName: "watermelon", itemPrice: 41},
-  {itemName: "yams", itemPrice: 32}
-  ];
-  
-function getTestCart() {
-  return testCart;
-}
-
-var testArray = getTestCart();
-console.log(testArray);
-
-function testRemoveFromCart(item) {
-    var i = getTestCart().findIndex(x => x.itemName===item);
-    getTestCart().splice(i,1);
-    var afterRemoved = getTestCart();
-    console.log('From inside testRemoveFromCart ' + afterRemoved);
-    return afterRemoved;
-}
-
-var testItem = "vanilla";
-
-var testFunction = testRemoveFromCart(testItem);
-
-console.log(testFunction);
-END TEST AREA */
